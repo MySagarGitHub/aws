@@ -7,7 +7,7 @@
 
   const handlesubmit = async (e: any) => {
     e.preventDefault();
-    const res = await fetch(' https://7xdemml3qk.execute-api.us-east-1.amazonaws.com/default/handlecontactform/handleContactForm', {
+    const res = await fetch(' "put your api gateway url here"', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
