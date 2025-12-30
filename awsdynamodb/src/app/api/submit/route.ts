@@ -22,7 +22,7 @@ export async function POST(req: NextRequest){
             )
         }
         const command = new PutCommand({
-            TableName: "ContactMessages",
+            TableName: "contactMessage",
             Item: {
                 id: uuidv4(),
                 name,
